@@ -22,3 +22,6 @@ npm install electron -g
 $ npm start
 ```
 
+## licença
+
+Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.md] (LICENSE.md) para obter detalhes
