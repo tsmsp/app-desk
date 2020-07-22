@@ -8,7 +8,13 @@
 
 ### Setup
 
-- Será necessário utilizar [Electron.js](https://www.electronjs.org/)
+- Clone o projeto.
+
+```shell
+git@github.com:tsmsp/app-desk.git
+```
+
+- Será necessário utilizar [Electron.js](https://www.electronjs.org/).
 
 ```shell
 npm install electron -g
