@@ -1,20 +1,27 @@
 {
-  "name": "electron-quick-start",
+  "name": "player-spotfy-fake",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Technical knowledge in vue.js",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/tsmsp/app-desk",
   "keywords": [
     "Electron",
-    "quick",
-    "start",
-    "tutorial",
+    "music",
+    "player",    
     "demo"
   ],
-  "author": "GitHub",
+
+  "build": {
+    "appId": "tsm-dev.Id",
+    "mac": {
+      "category": "music.app.player"
+    }
+  },
+  
+  "author": "tsm",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^9.1.0"
