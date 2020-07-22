@@ -6,7 +6,7 @@ const assetsDirectory = path.join(__dirname, 'assets')
 let tray = undefined
 
 const createTray = () => {
-  tray = new Tray(path.join(assetsDirectory, 'iconTemplate.png'))    
+  // tray = new Tray(path.join(assetsDirectory, 'iconTemplate.png'))    
   
    const contextMenu = Menu.buildFromTemplate([    
     { label: 'Music Player', type: 'radio', checked: false }    
@@ -17,7 +17,7 @@ const createTray = () => {
 
 function createWindow () {  
   const win = new BrowserWindow({      
-    icon: path.join(__dirname, 'assets/icons/64x64.png'),  
+    // icon: path.join(__dirname, 'assets/icons/64x64.png'),  
     backgroundColor: '#312450',    
     width: 1366,
     height: 762,            
@@ -45,7 +45,7 @@ app.on('ready', () => {
   win.loadURL('https://gk4m.github.io/vue-spotify/#/browse/genres')  
 
   // Open the DevTools.
-  // win.webContents.openDevTools()
+  // win.webContents.openDevTools();
 }
 
 app.whenReady().then(() => {
