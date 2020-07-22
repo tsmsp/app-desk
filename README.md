@@ -16,7 +16,7 @@
 npm install electron -g
 ```
 
-> Depois é só digitar
+- Execute o código abaixo.
 
 ```shell
 $ npm start
