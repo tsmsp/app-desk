@@ -10,7 +10,7 @@
 
 ### Setup
 
-- Será necessário utilizar Electron.js para poder rodar o projeto.
+- Será necessário utilizar [Electron.js](https://www.electronjs.org/)
 
 ```shell
 npm install electron -g
