@@ -10,18 +10,15 @@
 
 ### Setup
 
-- Será necessário utilziar o Electron para poder rodar o projeto.
-
-> update and install this package first
+- Será necessário utilizar Electron.js para poder rodar o projeto.
 
 ```shell
 npm install electron -g
 ```
 
-> now install npm and bower packages
+> Depois é só digitar
 
 ```shell
-$ npm install
-$ bower install
+$ npm start
 ```
 
